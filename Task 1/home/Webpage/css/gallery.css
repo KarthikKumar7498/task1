@@ -1,0 +1,40 @@
+.gallery {
+    padding:3em;
+    background:#f8f9fa;
+    }
+
+    
+#slideshow { 
+    margin: 50px auto; 
+    left: 280px;
+    position: relative; 
+    width: 62.5em; 
+    height: 62.5em; 
+    padding: 1em; 
+}
+
+#slideshow > div { 
+    position: relative; 
+    top: 1em; 
+    left: 1em; 
+    right: 1em; 
+    bottom: 1em; 
+}
+
+@media only screen and (min-width:24.56em) and (max-width:60em)
+{
+    #slideshow { 
+        left: 20px;
+        
+    }
+    
+}
+@media only screen and (max-width:24.56em)
+{
+    #slideshow { 
+        left: 5px;
+        
+    }
+    
+}
+
